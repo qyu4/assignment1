@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalcounterassignment"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.finalcounterassignment.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.finalcounterassignment.OverViewManue"
+            android:label="@string/title_activity_over_view_manue" >
+            <intent-filter>
+                <action android:name="android.intent.action.OVERVIEWMANUE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.finalcounterassignment.CreateNewCounter"
+            android:label="@string/title_activity_create_new_counter" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATENEWCOUNTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.finalcounterassignment.ListOfAllCounters"
+            android:label="@string/title_activity_list_of_all_counters" >
+            <intent-filter>
+                <action android:name="android.intent.action.LISTOFALLCOUNTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.finalcounterassignment.EditCounter"
+            android:label="@string/title_activity_edit_counter" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDITCOUNTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.finalcounterassignment.CounterRename"
+            android:label="@string/title_activity_counter_rename" >
+        </activity>
+        <activity
+            android:name="com.example.finalcounterassignment.CounterDetail"
+            android:label="@string/title_activity_counter_detail" >
+            <intent-filter>
+                <action android:name="android.intent.action.COUNTERDETAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>            
+        </activity>
+    </application>
+
+</manifest>

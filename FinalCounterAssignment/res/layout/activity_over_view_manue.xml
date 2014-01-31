@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+	<Button
+	    android:id="@+id/Bold"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/Bnew"
+	    android:layout_centerVertical="true"
+	    android:text="View previous counters"
+	    android:textSize="15sp" />
+
+	<Button
+	    android:id="@+id/Bnew"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/Bold"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginBottom="48dp"
+	    android:text="Create a new counter"
+	    android:textSize="15sp" />
+
+</RelativeLayout>

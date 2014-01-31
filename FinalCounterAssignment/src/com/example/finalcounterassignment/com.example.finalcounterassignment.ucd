@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1511,799" id="com.example.finalcounterassignment" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D313030302046696E616C436F756E74657241737369676E6D656E742F71797534">
+  <children xsi:type="editmodel:ClassEditModel" name="CounterDetail" location="480,120" size="163,103" id="com.example.finalcounterassignment/CounterDetail">
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="counterStatus" id="com.example.finalcounterassignment/CounterDetail#counterStatus"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nameNoFromEdit" id="com.example.finalcounterassignment/CounterDetail#nameNoFromEdit"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" id="com.example.finalcounterassignment/CounterDetail#onCreateOptionsMenu(Landroid.view.Menu;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CounterRename" location="908,50" size="163,85" id="com.example.finalcounterassignment/CounterRename">
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="cnameToChange" id="com.example.finalcounterassignment/CounterRename#cnameToChange"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" id="com.example.finalcounterassignment/CounterRename#onCreateOptionsMenu(Landroid.view.Menu;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CreateNewCounter" location="1121,50" size="181,67" id="com.example.finalcounterassignment/CreateNewCounter">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="75,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.example.finalcounterassignment/CreateNewCounter#onCreate(Landroid.os.Bundle;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="EditCounter" location="50,50" size="159,219" id="com.example.finalcounterassignment/EditCounter">
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="add" id="com.example.finalcounterassignment/EditCounter#add"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="back" id="com.example.finalcounterassignment/EditCounter#back"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="count" id="com.example.finalcounterassignment/EditCounter#count"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="counterName" id="com.example.finalcounterassignment/EditCounter#counterName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="details" id="com.example.finalcounterassignment/EditCounter#details"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="display" id="com.example.finalcounterassignment/EditCounter#display"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="getNewCname" id="com.example.finalcounterassignment/EditCounter#getNewCname"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="newName" id="com.example.finalcounterassignment/EditCounter#newName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rename" id="com.example.finalcounterassignment/EditCounter#rename"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="reset" id="com.example.finalcounterassignment/EditCounter#reset"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ListOfAllCounters" location="375,390" size="169,67" id="com.example.finalcounterassignment/ListOfAllCounters">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" id="com.example.finalcounterassignment/ListOfAllCounters#onCreateOptionsMenu(Landroid.view.Menu;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MainActivity" location="695,50" size="163,103" id="com.example.finalcounterassignment/MainActivity">
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="i" id="com.example.finalcounterassignment/MainActivity#i"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="thebar" id="com.example.finalcounterassignment/MainActivity#thebar"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" id="com.example.finalcounterassignment/MainActivity#onCreateOptionsMenu(Landroid.view.Menu;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="OverViewManue" location="259,50" size="173,103" id="com.example.finalcounterassignment/OverViewManue">
+    <children xsi:type="editmodel:CompartmentEditModel" size="150,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="createNewCounter" id="com.example.finalcounterassignment/OverViewManue#createNewCounter"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="viewOldCounter" id="com.example.finalcounterassignment/OverViewManue#viewOldCounter"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" id="com.example.finalcounterassignment/OverViewManue#onCreateOptionsMenu(Landroid.view.Menu;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

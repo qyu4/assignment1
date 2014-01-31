@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EditCounter" >
+
+    <Button
+        android:id="@+id/Brename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Bstat"
+        android:layout_alignLeft="@+id/Bstat"
+        android:text="Rname"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Bback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Bstat"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:text="Back to main manue"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Bstat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Bback"
+        android:layout_alignLeft="@+id/Breset"
+        android:text="Counter details"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Counter name"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="total is 0"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/Breset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Brename"
+        android:layout_centerHorizontal="true"
+        android:text="Reset"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Badd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Breset"
+        android:layout_alignLeft="@+id/Breset"
+        android:text="ADD"
+        android:textSize="50sp" />
+
+</RelativeLayout>
